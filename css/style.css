@@ -117,38 +117,19 @@
     color: inherit;
 }
 
-.menu-hebergements {
-    width: 115px;
-    height: 35px;
+.menu {  
     font-size: 16px;
     font-weight: 400;  
     padding-top: 10px;
 }
 
-.menu-hebergements :active{
+.menu:active{
     border-top: 2px solid #0065FC; 
 }
 
-.menu-hebergements:hover {
+.menu:hover {
     border-top: 2px solid #0065FC;
     color: #0065FC;
-}
-
-.menu-activites {
-    width: 65px;
-    height: 35px;
-    font-size: 16px;
-    font-weight: 400;
-    padding-top: 10px;
-}
-
-.menu-activites  :active{
-    border-top: 2px solid #0065FC;
-}
-
-.menu-activites:hover {
-    border-top: 2px solid #0065FC;
-    color: #0065FC;  
 }
 
 @media (max-width: 768px){
@@ -173,30 +154,17 @@
         border-bottom: 2px solid #F2F2F2; 
     }
 
-    .menu-hebergements {
+    .menu {
         width: 50%;
         height: 19px; 
         padding-bottom: 15px; 
     }
-
-    .menu-activites {
-        width: 50%;
-        height: 19px;
-        padding-bottom: 15px;
-    }
-    
-    .menu-hebergements:hover {
+  
+    .menu:hover {
         width: 50vw;
         border-top: none;
         padding-bottom: 21px;  
         border-bottom: 2px solid #0065FC;
-    }
-
-    .menu-activites:hover {
-        width: 50vw;
-        border-top: none;
-        padding-bottom: 21px;   
-        border-bottom: 2px solid #0065FC;  
     }
 }
 
